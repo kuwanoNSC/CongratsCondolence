@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>classification</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-06 07:50:42</sys_created_on>
+        <sys_data_policy display_value="Sets the Classification field to mandatory">bdbd036f2fd230102a5958a72799b646</sys_data_policy>
+        <sys_id>b5bd036f2fd230102a5958a72799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>classification</sys_name>
+        <sys_package display_value="Congratulatory or Condolence money" source="x_585042_congratul">e12543232fd230102a5958a72799b6b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Congratulatory or Condolence money">e12543232fd230102a5958a72799b6b3</sys_scope>
+        <sys_update_name>sys_data_policy_rule_b5bd036f2fd230102a5958a72799b64a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-06 07:50:42</sys_updated_on>
+        <table>x_585042_congratul_congratscondolence</table>
+    </sys_data_policy_rule>
+</record_update>

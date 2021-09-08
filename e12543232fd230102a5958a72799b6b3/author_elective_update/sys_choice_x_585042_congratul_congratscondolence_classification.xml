@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="classification" table="x_585042_congratul_congratscondolence" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>classification</element>
+            <name>x_585042_congratul_congratscondolence</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 07:50:41</sys_created_on>
+            <sys_id>e1bd036f2fd230102a5958a72799b63f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>classification</sys_name>
+            <sys_package display_value="Congratulatory or Condolence money" source="x_585042_congratul">e12543232fd230102a5958a72799b6b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Congratulatory or Condolence money">e12543232fd230102a5958a72799b6b3</sys_scope>
+            <sys_update_name>sys_choice_x_585042_congratul_congratscondolence_classification</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 07:50:41</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Money gift for wedding</label>
+            <language>en</language>
+            <name>x_585042_congratul_congratscondolence</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 07:50:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69bd036f2fd230102a5958a72799b63e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 07:50:41</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>結婚祝金</label>
+            <language>ja</language>
+            <name>x_585042_congratul_congratscondolence</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-07 08:49:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62b4a0cc2f2630102a5958a72799b628</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-07 08:49:38</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Money gift for childbirth</label>
+            <language>en</language>
+            <name>x_585042_congratul_congratscondolence</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 07:50:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9bd036f2fd230102a5958a72799b641</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 07:50:41</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>出産祝金</label>
+            <language>ja</language>
+            <name>x_585042_congratul_congratscondolence</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-07 08:50:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91e4688c2f2630102a5958a72799b645</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-07 08:50:18</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Death condolence money</label>
+            <language>en</language>
+            <name>x_585042_congratul_congratscondolence</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 07:50:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>35bd036f2fd230102a5958a72799b644</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 07:50:42</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>死亡弔慰金</label>
+            <language>ja</language>
+            <name>x_585042_congratul_congratscondolence</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-07 08:50:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4705ec8c2f2630102a5958a72799b60f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-07 08:50:54</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="慶弔金申請" max_length="40" name="x_585042_congratul_congratscondolence" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="AIL posted" max_length="40" name="ail_posted" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Decline" value="2"/>
+                <element inactive_on_update="false" label="Hope" value="1"/>
+                <element inactive_on_update="false" label="希望" language="ja" value="1"/>
+                <element inactive_on_update="false" label="辞退" language="ja" value="2"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Applicant" max_length="32" name="applicant" reference="sys_user" type="reference"/>
+        <element label="Approval" max_length="40" name="approval" type="string"/>
+        <element label="Approval History" max_length="4000" name="approval_history" type="journal"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Birth kana" max_length="40" name="birth_kana" type="string"/>
+        <element label="Birth name" max_length="40" name="birth_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Classification" max_length="40" name="classification" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Death condolence money" value="3"/>
+                <element inactive_on_update="false" label="Money gift for childbirth" value="2"/>
+                <element inactive_on_update="false" label="Money gift for wedding" value="1"/>
+                <element inactive_on_update="false" label="出産祝金" language="ja" value="2"/>
+                <element inactive_on_update="false" label="死亡弔慰金" language="ja" value="3"/>
+                <element inactive_on_update="false" label="結婚祝金" language="ja" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Congratulations" max_length="40" name="congratulations" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Decline" value="2"/>
+                <element inactive_on_update="false" label="Hope" value="1"/>
+                <element inactive_on_update="false" label="希望" language="ja" value="1"/>
+                <element inactive_on_update="false" label="辞退" language="ja" value="2"/>
+            </choice>
+        </element>
+        <element label="Date of birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Real Applicant" max_length="32" name="real_applicant" reference="sys_user" type="reference"/>
+        <element choice="1" label="Relationship" max_length="40" name="relationship" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="etc" value="9"/>
+                <element inactive_on_update="false" label="First-born daughter" value="2"/>
+                <element inactive_on_update="false" label="First-born son" value="1"/>
+                <element inactive_on_update="false" label="Fourth-born daughter" value="8"/>
+                <element inactive_on_update="false" label="Fourth-born son" value="7"/>
+                <element inactive_on_update="false" label="Second-born daughter" value="4"/>
+                <element inactive_on_update="false" label="Second-born son" value="3"/>
+                <element inactive_on_update="false" label="Third-born daughter" value="6"/>
+                <element inactive_on_update="false" label="Third-born son" value="5"/>
+                <element inactive_on_update="false" label="その他" value="9"/>
+                <element inactive_on_update="false" label="三女" language="ja" value="6"/>
+                <element inactive_on_update="false" label="三男" language="ja" value="5"/>
+                <element inactive_on_update="false" label="二女" language="ja" value="4"/>
+                <element inactive_on_update="false" label="二男" language="ja" value="3"/>
+                <element inactive_on_update="false" label="四女" language="ja" value="8"/>
+                <element inactive_on_update="false" label="四男" language="ja" value="7"/>
+                <element inactive_on_update="false" label="長女" value="2"/>
+                <element inactive_on_update="false" label="長男" language="ja" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Remarks" max_length="4000" name="remarks" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Spouse" max_length="40" name="spouse" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="15"/>
+                <element inactive_on_update="false" label="Awaiting Approval" value="14"/>
+                <element inactive_on_update="false" label="Awating Feedback" value="16"/>
+                <element inactive_on_update="false" label="Closed Complete" value="3"/>
+                <element inactive_on_update="false" label="Reject" value="4"/>
+                <element inactive_on_update="false" label="Requested" value="13"/>
+                <element inactive_on_update="false" label="フィードバック待ち" language="ja" value="16"/>
+                <element inactive_on_update="false" label="リクエスト済み" language="ja" value="13"/>
+                <element inactive_on_update="false" label="却下" language="ja" value="4"/>
+                <element inactive_on_update="false" label="承認待ち" language="ja" value="14"/>
+                <element inactive_on_update="false" label="承認済み" language="ja" value="15"/>
+                <element inactive_on_update="false" label="閉じて完了" language="ja" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Wedding datetime" max_length="40" name="wedding_datetime" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Wedding hall address" max_length="40" name="wedding_hall_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Wedding hall name" max_length="40" name="wedding_hall_name" type="string"/>
+        <element label="Wedding hall phone" max_length="40" name="wedding_hall_phone" type="string"/>
+        <index name="index">
+            <element name="applicant"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index3">
+            <element name="real_applicant"/>
+        </index>
+    </element>
+</database>

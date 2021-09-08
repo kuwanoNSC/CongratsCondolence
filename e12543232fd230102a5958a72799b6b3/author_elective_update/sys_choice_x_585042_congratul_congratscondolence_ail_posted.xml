@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="ail_posted" table="x_585042_congratul_congratscondolence" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>ail_posted</element>
+            <name>x_585042_congratul_congratscondolence</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 07:50:41</sys_created_on>
+            <sys_id>a5bd036f2fd230102a5958a72799b632</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ail_posted</sys_name>
+            <sys_package display_value="Congratulatory or Condolence money" source="x_585042_congratul">e12543232fd230102a5958a72799b6b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Congratulatory or Condolence money">e12543232fd230102a5958a72799b6b3</sys_scope>
+            <sys_update_name>sys_choice_x_585042_congratul_congratscondolence_ail_posted</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 07:50:41</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ail_posted</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hope</label>
+            <language>en</language>
+            <name>x_585042_congratul_congratscondolence</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 07:50:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2dbd036f2fd230102a5958a72799b631</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 07:50:41</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ail_posted</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>希望</label>
+            <language>ja</language>
+            <name>x_585042_congratul_congratscondolence</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-07 08:53:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>948568cc2f2630102a5958a72799b6cd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-07 08:54:03</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ail_posted</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Decline</label>
+            <language>en</language>
+            <name>x_585042_congratul_congratscondolence</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 07:50:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6dbd036f2fd230102a5958a72799b634</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 07:50:41</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ail_posted</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>辞退</label>
+            <language>ja</language>
+            <name>x_585042_congratul_congratscondolence</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-07 08:54:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60c56ccc2f2630102a5958a72799b616</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-07 08:54:28</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
