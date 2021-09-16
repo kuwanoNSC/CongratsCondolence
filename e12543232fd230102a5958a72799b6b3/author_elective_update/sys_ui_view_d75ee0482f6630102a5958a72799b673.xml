@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Wedding</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-07 09:31:27</sys_created_on>
+        <sys_id>d75ee0482f6630102a5958a72799b673</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Wedding</sys_name>
+        <sys_package display_value="Congratulatory or Condolence money" source="x_585042_congratul">e12543232fd230102a5958a72799b6b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Congratulatory or Condolence money">e12543232fd230102a5958a72799b6b3</sys_scope>
+        <sys_update_name>sys_ui_view_d75ee0482f6630102a5958a72799b673</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-08 01:41:39</sys_updated_on>
+        <title>Wedding</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Congratulatory or Condolence money">e12543232fd230102a5958a72799b6b3</application>
+        <file_path/>
+        <instance_id>05786556db0a3a40b2e05d00cf9619c3</instance_id>
+        <instance_name>dev34647</instance_name>
+        <name>sys_ui_view_d75ee0482f6630102a5958a72799b673</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>Wedding</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-07 09:31:27</sys_created_on><sys_id>d75ee0482f6630102a5958a72799b673</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Wedding</sys_name><sys_package display_value="Congratulatory or Condolence money" source="x_585042_congratul">e12543232fd230102a5958a72799b6b3</sys_package><sys_policy/><sys_scope display_value="Congratulatory or Condolence money">e12543232fd230102a5958a72799b6b3</sys_scope><sys_update_name>sys_ui_view_d75ee0482f6630102a5958a72799b673</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-08 01:41:39</sys_updated_on><title>Wedding</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>936123705</payload_hash>
+        <record_name>Wedding</record_name>
+        <reverted_from/>
+        <source>6d2543232fd230102a5958a72799b6b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-08 01:41:39</sys_created_on>
+        <sys_id>476cc8942f2230102a5958a72799b6a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bc3115aa20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-08 01:41:39</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>8f6cc894e9223010ea2b2e0685e750a5</update_guid>
+        <update_guid_history>8f6cc894e9223010ea2b2e0685e750a5:936123705,0c29c4d05e22301042d8f57a32215da9:-887639178,975ee048c8663010fc9a19b73348b075:936123705</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-14 08:00:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>99b2ec6d4e7e43b4893431a546939690</sys_id>
+        <sys_metadata>d75ee0482f6630102a5958a72799b673</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Wedding</sys_name>
+        <sys_package display_value="Congratulatory or Condolence money" source="x_585042_congratul">e12543232fd230102a5958a72799b6b3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Congratulatory or Condolence money">e12543232fd230102a5958a72799b6b3</sys_scope>
+        <sys_scope_delete display_value="">0cfffbd8a4cc4e9086f2c37fbd15a531</sys_scope_delete>
+        <sys_update_name>sys_ui_view_d75ee0482f6630102a5958a72799b673</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_d75ee0482f6630102a5958a72799b673">476cc8942f2230102a5958a72799b6a6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-14 08:00:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

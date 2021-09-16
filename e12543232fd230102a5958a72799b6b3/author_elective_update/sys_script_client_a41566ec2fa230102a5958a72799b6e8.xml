@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>getSectionテスト</description>
+        <field>ail_posted</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Section Get</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+// 	var sections = g_form.getSections();
+// 	alert(sections);
+	var sectionnames = g_form.getSectionNames();
+// 	alert(sectionnames);
+// 	alert(sectionnames[0]);
+// 	alert(sectionnames[1]);
+// 	g_form.setSectionDisplay(sectionnames[1],false);
+	
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-09 07:30:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a41566ec2fa230102a5958a72799b6e8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Section Get</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Congratulatory or Condolence money" source="x_585042_congratul">e12543232fd230102a5958a72799b6b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Congratulatory or Condolence money">e12543232fd230102a5958a72799b6b3</sys_scope>
+        <sys_update_name>sys_script_client_a41566ec2fa230102a5958a72799b6e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-09 07:45:41</sys_updated_on>
+        <table>x_585042_congratul_congratscondolence</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Congratulatory or Condolence money">e12543232fd230102a5958a72799b6b3</application>
+        <file_path/>
+        <instance_id>05786556db0a3a40b2e05d00cf9619c3</instance_id>
+        <instance_name>dev34647</instance_name>
+        <name>sys_script_client_a41566ec2fa230102a5958a72799b6e8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;getSectionテスト&lt;/description&gt;&lt;field&gt;ail_posted&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Section Get&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+// 	var sections = g_form.getSections();
+// 	alert(sections);
+	var sectionnames = g_form.getSectionNames();
+// 	alert(sectionnames);
+// 	alert(sectionnames[0]);
+// 	alert(sectionnames[1]);
+// 	g_form.setSectionDisplay(sectionnames[1],false);
+	
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-09 07:30:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a41566ec2fa230102a5958a72799b6e8&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Section Get&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Congratulatory or Condolence money" source="x_585042_congratul"&gt;e12543232fd230102a5958a72799b6b3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Congratulatory or Condolence money"&gt;e12543232fd230102a5958a72799b6b3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a41566ec2fa230102a5958a72799b6e8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-09 07:45:41&lt;/sys_updated_on&gt;&lt;table&gt;x_585042_congratul_congratscondolence&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-15642245</payload_hash>
+        <record_name>Section Get</record_name>
+        <reverted_from/>
+        <source>145ec1202f2230102a5958a72799b655</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-09 07:45:41</sys_created_on>
+        <sys_id>15592ae82f2630102a5958a72799b6a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bc984ff000000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-09 07:45:41</sys_updated_on>
+        <type>クライアントスクリプト</type>
+        <update_guid>1d592ae8b0263010a8c7973048c8ada3</update_guid>
+        <update_guid_history>1d592ae8b0263010a8c7973048c8ada3:-15642245,8278a6a8e1263010833a83b60b0f827b:1880116819,5e97a6a8d9263010407187f5b816b5e8:-974399282,ad4762e4ba26301007b0182a7d2c7bd5:380608613,0746ae64942630101720d917760d4533:1811824902,2fc5a26844263010aa1d008ad580e773:921261553</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-09 08:17:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>5e421eb2ba9b4538819f9fa3052a4864</sys_id>
+        <sys_metadata>a41566ec2fa230102a5958a72799b6e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Section Get</sys_name>
+        <sys_package display_value="Congratulatory or Condolence money" source="x_585042_congratul">e12543232fd230102a5958a72799b6b3</sys_package>
+        <sys_parent display_value="CongratsCondolence">7fadcf2f2fd230102a5958a72799b647</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Congratulatory or Condolence money">e12543232fd230102a5958a72799b6b3</sys_scope>
+        <sys_scope_delete display_value="">0cfffbd8a4cc4e9086f2c37fbd15a531</sys_scope_delete>
+        <sys_update_name>sys_script_client_a41566ec2fa230102a5958a72799b6e8</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a41566ec2fa230102a5958a72799b6e8">15592ae82f2630102a5958a72799b6a4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-09 08:17:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

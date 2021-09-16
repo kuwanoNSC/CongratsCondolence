@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="慶弔金申請" max_length="40" name="x_585042_congratul_congratscondolence" sizeclass="1" type="collection">
+    <element label="慶弔金申請" max_length="40" name="x_585042_congratul_congratscondolence" sizeclass="12" type="collection">
+        <element label="Age" max_length="3" name="age" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="AIL posted" max_length="40" name="ail_posted" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Decline" value="2"/>
@@ -11,19 +12,29 @@
         <element attributes="encode_utf8=false" label="Applicant" max_length="32" name="applicant" reference="sys_user" type="reference"/>
         <element label="Approval" max_length="40" name="approval" type="string"/>
         <element label="Approval History" max_length="4000" name="approval_history" type="journal"/>
-        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" read_only="true" reference="sys_user" type="reference"/>
         <element label="Birth kana" max_length="40" name="birth_kana" type="string"/>
         <element label="Birth name" max_length="40" name="birth_name" type="string"/>
+        <element label="Chief mourner name" max_length="40" name="chief_mourner_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Classification" max_length="40" name="classification" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Death condolence money" value="3"/>
-                <element inactive_on_update="false" label="Money gift for childbirth" value="2"/>
-                <element inactive_on_update="false" label="Money gift for wedding" value="1"/>
-                <element inactive_on_update="false" label="出産祝金" language="ja" value="2"/>
-                <element inactive_on_update="false" label="死亡弔慰金" language="ja" value="3"/>
-                <element inactive_on_update="false" label="結婚祝金" language="ja" value="1"/>
+                <element inactive_on_update="false" label="Money gift for wedding" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="結婚祝金" language="ja" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="Money gift for childbirth" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="出産祝金" language="ja" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="Death condolence money" sequence="30" value="3"/>
+                <element inactive_on_update="false" label="死亡弔慰金" language="ja" sequence="30" value="3"/>
             </choice>
         </element>
+        <element choice="3" default="1" label="Condolence" max_length="40" name="condolence" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hope" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="希望" language="ja" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="Decline" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="辞退" language="ja" sequence="20" value="2"/>
+            </choice>
+        </element>
+        <element label="Condolence money receiving base" max_length="40" name="condolence_money_receiving_base" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Congratulations" max_length="40" name="congratulations" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Decline" value="2"/>
@@ -32,34 +43,93 @@
                 <element inactive_on_update="false" label="辞退" language="ja" value="2"/>
             </choice>
         </element>
+        <element label="Contact employees" max_length="40" name="contact_employees" type="string"/>
         <element label="Date of birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element label="etc" max_length="40" name="etc" type="string"/>
+        <element label="Etc family relationship" max_length="40" name="etc_family_relationship" type="string"/>
+        <element label="Expected date of receiving condolence money" max_length="40" name="expected_date_of_receiving_condolence_money" type="glide_date"/>
+        <element choice="1" label="Family relationship" max_length="40" name="family_relationship" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="My grandfather" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="本人の祖父" language="ja" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="My grandmother" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="本人の祖母" language="ja" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="My father" sequence="30" value="3"/>
+                <element inactive_on_update="false" label="本人の父" language="ja" sequence="30" value="3"/>
+                <element inactive_on_update="false" label="My mother" sequence="40" value="4"/>
+                <element inactive_on_update="false" label="本人の母" language="ja" sequence="40" value="4"/>
+                <element inactive_on_update="false" label="Spouse" sequence="50" value="5"/>
+                <element inactive_on_update="false" label="配偶者" language="ja" sequence="50" value="5"/>
+                <element inactive_on_update="false" label="Spouse father" sequence="60" value="6"/>
+                <element inactive_on_update="false" label="配偶者の父" language="ja" sequence="60" value="6"/>
+                <element inactive_on_update="false" label="Spouse mother" sequence="70" value="7"/>
+                <element inactive_on_update="false" label="配偶者の母" language="ja" sequence="70" value="7"/>
+                <element inactive_on_update="false" label="My older brother" sequence="80" value="8"/>
+                <element inactive_on_update="false" label="本人の兄" language="ja" sequence="80" value="8"/>
+                <element inactive_on_update="false" label="My younger brother" sequence="90" value="9"/>
+                <element inactive_on_update="false" label="本人の弟" language="ja" sequence="90" value="9"/>
+                <element inactive_on_update="false" label="My older sister" sequence="100" value="10"/>
+                <element inactive_on_update="false" label="本人の姉" language="ja" sequence="100" value="10"/>
+                <element inactive_on_update="false" label="My younger sister" sequence="110" value="11"/>
+                <element inactive_on_update="false" label="本人の妹" language="ja" sequence="110" value="11"/>
+                <element inactive_on_update="false" label="My son" sequence="120" value="12"/>
+                <element inactive_on_update="false" label="本人の息子" language="ja" sequence="120" value="12"/>
+                <element inactive_on_update="false" label="My daughter" sequence="130" value="13"/>
+                <element inactive_on_update="false" label="本人の娘" language="ja" sequence="130" value="13"/>
+                <element inactive_on_update="false" label="etc" sequence="140" value="14"/>
+                <element inactive_on_update="false" label="その他" language="ja" sequence="140" value="14"/>
+            </choice>
+        </element>
+        <element label="Farewell ceremony datetime" max_length="40" name="farewell_ceremony_datetime" type="glide_date_time"/>
+        <element choice="3" default="1" label="Flower offering" max_length="40" name="flower_offering" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hope" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="希望" language="ja" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="Decline" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="辞退" language="ja" sequence="20" value="2"/>
+            </choice>
+        </element>
+        <element label="Funeral hall address" max_length="40" name="funeral_hall_address" type="string"/>
+        <element label="Funeral hall name" max_length="40" name="funeral_hall_name" type="string"/>
+        <element label="Funeral hall phone" max_length="40" name="funeral_hall_phone" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Passed away date" max_length="40" name="passed_away_date" type="glide_date"/>
+        <element label="Passed away name" max_length="40" name="passed_away_name" type="string"/>
+        <element label="Passed away name kana" max_length="40" name="passed_away_name_kana" type="string"/>
+        <element choice="3" default="1" label="PlusOne posted" max_length="40" name="plusone_posted" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hope" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="希望" language="ja" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="Decline" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="辞退" language="ja" sequence="20" value="2"/>
+            </choice>
+        </element>
         <element attributes="encode_utf8=false" label="Real Applicant" max_length="32" name="real_applicant" reference="sys_user" type="reference"/>
         <element choice="1" label="Relationship" max_length="40" name="relationship" type="choice">
             <choice>
-                <element inactive_on_update="false" label="etc" value="9"/>
-                <element inactive_on_update="false" label="First-born daughter" value="2"/>
-                <element inactive_on_update="false" label="First-born son" value="1"/>
-                <element inactive_on_update="false" label="Fourth-born daughter" value="8"/>
-                <element inactive_on_update="false" label="Fourth-born son" value="7"/>
-                <element inactive_on_update="false" label="Second-born daughter" value="4"/>
-                <element inactive_on_update="false" label="Second-born son" value="3"/>
-                <element inactive_on_update="false" label="Third-born daughter" value="6"/>
-                <element inactive_on_update="false" label="Third-born son" value="5"/>
-                <element inactive_on_update="false" label="その他" value="9"/>
-                <element inactive_on_update="false" label="三女" language="ja" value="6"/>
-                <element inactive_on_update="false" label="三男" language="ja" value="5"/>
-                <element inactive_on_update="false" label="二女" language="ja" value="4"/>
-                <element inactive_on_update="false" label="二男" language="ja" value="3"/>
-                <element inactive_on_update="false" label="四女" language="ja" value="8"/>
-                <element inactive_on_update="false" label="四男" language="ja" value="7"/>
-                <element inactive_on_update="false" label="長女" value="2"/>
-                <element inactive_on_update="false" label="長男" language="ja" value="1"/>
+                <element inactive_on_update="false" label="First-born son" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="長男" language="ja" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="First-born daughter" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="長女" language="ja" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="Second-born son" sequence="30" value="3"/>
+                <element inactive_on_update="false" label="二男" language="ja" sequence="30" value="3"/>
+                <element inactive_on_update="false" label="Second-born daughter" sequence="40" value="4"/>
+                <element inactive_on_update="false" label="二女" language="ja" sequence="40" value="4"/>
+                <element inactive_on_update="false" label="Third-born son" sequence="50" value="5"/>
+                <element inactive_on_update="false" label="三男" language="ja" sequence="50" value="5"/>
+                <element inactive_on_update="false" label="Third-born daughter" sequence="60" value="6"/>
+                <element inactive_on_update="false" label="三女" language="ja" sequence="60" value="6"/>
+                <element inactive_on_update="false" label="Fourth-born son" sequence="70" value="7"/>
+                <element inactive_on_update="false" label="四男" language="ja" sequence="70" value="7"/>
+                <element inactive_on_update="false" label="Fourth-born daughter" sequence="80" value="8"/>
+                <element inactive_on_update="false" label="四女" language="ja" sequence="80" value="8"/>
+                <element inactive_on_update="false" label="etc" sequence="90" value="9"/>
+                <element inactive_on_update="false" label="その他" language="ja" sequence="90" value="9"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Remarks" max_length="4000" name="remarks" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Spouse" max_length="40" name="spouse" type="string"/>
-        <element choice="1" label="State" max_length="40" name="state" type="choice">
+        <element choice="1" label="State" max_length="40" name="state" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Approved" value="15"/>
                 <element inactive_on_update="false" label="Awaiting Approval" value="14"/>
@@ -75,6 +145,7 @@
                 <element inactive_on_update="false" label="閉じて完了" language="ja" value="3"/>
             </choice>
         </element>
+        <element label="Wake datetime" max_length="40" name="wake_datetime" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Wedding datetime" max_length="40" name="wedding_datetime" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Wedding hall address" max_length="40" name="wedding_hall_address" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Wedding hall name" max_length="40" name="wedding_hall_name" type="string"/>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>申請者、実申請者にログインユーザーをセットする</description>
+        <field>ail_posted</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages>申請者、実申請者をセットしました。</messages>
+        <name>Username</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    if (g_form.isNewRecord()) {
+		alert('NewRecord');
+        var username = g_user.userName;
+        alert(username);
+        g_form.setValue('applicant', username);
+        g_form.setValue('real_applicant', username);
+        // 新規は、申請区分を変更可能にする
+        g_from.setReadonly('classification', false);
+    } else {
+		alert('EditRecord');
+        // 新規以外は、申請区分を読取専用にする
+        g_from.setReadonly('classification', true);
+
+    }
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-13 07:06:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5bf1c7b52f2630102a5958a72799b6dc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Username</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Congratulatory or Condolence money" source="x_585042_congratul">e12543232fd230102a5958a72799b6b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Congratulatory or Condolence money">e12543232fd230102a5958a72799b6b3</sys_scope>
+        <sys_update_name>sys_script_client_5bf1c7b52f2630102a5958a72799b6dc</sys_update_name>
+        <sys_updated_by>katsuharu.kuwano</sys_updated_by>
+        <sys_updated_on>2021-09-13 07:15:18</sys_updated_on>
+        <table>x_585042_congratul_congratscondolence</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Congratulatory or Condolence money">e12543232fd230102a5958a72799b6b3</application>
+        <file_path/>
+        <instance_id>05786556db0a3a40b2e05d00cf9619c3</instance_id>
+        <instance_name>dev34647</instance_name>
+        <name>sys_script_client_5bf1c7b52f2630102a5958a72799b6dc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;申請者、実申請者にログインユーザーをセットする&lt;/description&gt;&lt;field&gt;ail_posted&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages&gt;申請者、実申請者をセットしました。&lt;/messages&gt;&lt;name&gt;Username&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    if (g_form.isNewRecord()) {
+		alert('NewRecord');
+        var username = g_user.userName;
+        alert(username);
+        g_form.setValue('applicant', username);
+        g_form.setValue('real_applicant', username);
+        // 新規は、申請区分を変更可能にする
+        g_from.setReadonly('classification', false);
+    } else {
+		alert('EditRecord');
+        // 新規以外は、申請区分を読取専用にする
+        g_from.setReadonly('classification', true);
+
+    }
+
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-13 07:06:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5bf1c7b52f2630102a5958a72799b6dc&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Username&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Congratulatory or Condolence money" source="x_585042_congratul"&gt;e12543232fd230102a5958a72799b6b3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Congratulatory or Condolence money"&gt;e12543232fd230102a5958a72799b6b3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_5bf1c7b52f2630102a5958a72799b6dc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;katsuharu.kuwano&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-13 07:15:18&lt;/sys_updated_on&gt;&lt;table&gt;x_585042_congratul_congratscondolence&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1907650971</payload_hash>
+        <record_name>Username</record_name>
+        <reverted_from/>
+        <source>145ec1202f2230102a5958a72799b655</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>katsuharu.kuwano</sys_created_by>
+        <sys_created_on>2021-09-13 07:15:18</sys_created_on>
+        <sys_id>1fb88f3d2f2630102a5958a72799b662</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bde029cc80000001</sys_recorded_at>
+        <sys_updated_by>katsuharu.kuwano</sys_updated_by>
+        <sys_updated_on>2021-09-13 07:15:18</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>17b88f3d2d263010a8d4200ba44e3f62</update_guid>
+        <update_guid_history>17b88f3d2d263010a8d4200ba44e3f62:-1907650971,4648cb3da82630109993613bb67998a8:-1603061327,a4074bf9f6263010db2c5392ec050efa:791744432,48b607b52226301024d923bdcb0ccada:-1526715174</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>katsuharu.kuwano</sys_created_by>
+        <sys_created_on>2021-09-13 07:41:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>149947dec5ac4b28a9f5027e67e98290</sys_id>
+        <sys_metadata>5bf1c7b52f2630102a5958a72799b6dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Username</sys_name>
+        <sys_package display_value="Congratulatory or Condolence money" source="x_585042_congratul">e12543232fd230102a5958a72799b6b3</sys_package>
+        <sys_parent display_value="CongratsCondolence">7fadcf2f2fd230102a5958a72799b647</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Congratulatory or Condolence money">e12543232fd230102a5958a72799b6b3</sys_scope>
+        <sys_scope_delete display_value="">0cfffbd8a4cc4e9086f2c37fbd15a531</sys_scope_delete>
+        <sys_update_name>sys_script_client_5bf1c7b52f2630102a5958a72799b6dc</sys_update_name>
+        <sys_update_version display_value="sys_script_client_5bf1c7b52f2630102a5958a72799b6dc">1fb88f3d2f2630102a5958a72799b662</sys_update_version>
+        <sys_updated_by>katsuharu.kuwano</sys_updated_by>
+        <sys_updated_on>2021-09-13 07:41:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

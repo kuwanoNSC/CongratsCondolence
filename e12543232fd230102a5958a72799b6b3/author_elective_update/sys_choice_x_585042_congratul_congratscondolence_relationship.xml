@@ -24,16 +24,16 @@
             <label>First-born son</label>
             <language>en</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>10</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-09-08 06:51:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>1d531d902f2630102a5958a72799b64d</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:52:09</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:40:29</sys_updated_on>
             <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -44,16 +44,16 @@
             <label>長男</label>
             <language>ja</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>10</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-09-08 06:52:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b8731d902f2630102a5958a72799b64e</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:52:45</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:45:00</sys_updated_on>
             <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -64,16 +64,16 @@
             <label>First-born daughter</label>
             <language>en</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>20</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-08 06:53:06</sys_created_on>
+            <sys_created_on>2021-09-08 06:53:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d9939d902f2630102a5958a72799b63b</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>adb3915c2fe230102a5958a72799b6ca</sys_id>
+            <sys_mod_count>8</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:53:14</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:41:23</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -82,18 +82,18 @@
             <hint/>
             <inactive>false</inactive>
             <label>長女</label>
-            <language>en</language>
+            <language>ja</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>20</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-08 06:53:28</sys_created_on>
+            <sys_created_on>2021-09-08 06:53:06</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>adb3915c2fe230102a5958a72799b6ca</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>d9939d902f2630102a5958a72799b63b</sys_id>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:53:34</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:41:55</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -104,16 +104,16 @@
             <label>Second-born son</label>
             <language>en</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>30</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-09-08 06:53:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>bec391d02f2630102a5958a72799b60c</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:54:00</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:42:22</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -124,16 +124,16 @@
             <label>二男</label>
             <language>ja</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>30</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-09-08 06:54:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>0ce391d02f2630102a5958a72799b60d</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:54:23</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:48:21</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -144,16 +144,16 @@
             <label>Second-born daughter</label>
             <language>en</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>40</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-09-08 06:54:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>edf3915c2fe230102a5958a72799b6cb</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:54:55</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:42:39</sys_updated_on>
             <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -164,16 +164,16 @@
             <label>二女</label>
             <language>ja</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>40</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-09-08 06:55:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>5614dd502f2630102a5958a72799b631</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:55:24</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:47:39</sys_updated_on>
             <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -184,16 +184,16 @@
             <label>Third-born son</label>
             <language>en</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>50</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-09-08 06:55:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>083499102f2630102a5958a72799b6a1</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:55:53</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:43:07</sys_updated_on>
             <value>5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -204,16 +204,16 @@
             <label>三男</label>
             <language>ja</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>50</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-09-08 06:56:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f0549d902f2630102a5958a72799b64a</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:56:13</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:48:10</sys_updated_on>
             <value>5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -224,16 +224,16 @@
             <label>Third-born daughter</label>
             <language>en</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>60</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-09-08 06:56:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>9464d9d02f2630102a5958a72799b601</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:56:30</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:43:16</sys_updated_on>
             <value>6</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -244,16 +244,16 @@
             <label>三女</label>
             <language>ja</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>60</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-09-08 06:56:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ce7455d02f2630102a5958a72799b6cd</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:56:54</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:48:38</sys_updated_on>
             <value>6</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -264,16 +264,16 @@
             <label>Fourth-born son</label>
             <language>en</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>70</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-09-08 06:57:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>5e8455d02f2630102a5958a72799b6ce</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:57:18</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:43:45</sys_updated_on>
             <value>7</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -284,16 +284,16 @@
             <label>四男</label>
             <language>ja</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>70</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-09-08 06:57:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>20a4d1d02f2630102a5958a72799b6a1</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:57:35</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:48:58</sys_updated_on>
             <value>7</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -304,16 +304,16 @@
             <label>Fourth-born daughter</label>
             <language>en</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>80</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-09-08 06:57:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>e0b4d5d02f2630102a5958a72799b607</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:57:52</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:43:51</sys_updated_on>
             <value>8</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -324,16 +324,16 @@
             <label>四女</label>
             <language>ja</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>80</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-09-08 06:58:04</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>92c491d02f2630102a5958a72799b617</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:58:18</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:49:12</sys_updated_on>
             <value>8</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -344,16 +344,16 @@
             <label>etc</label>
             <language>en</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>90</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-09-08 06:58:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>02d491d02f2630102a5958a72799b618</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>9</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:58:53</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:44:08</sys_updated_on>
             <value>9</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -362,18 +362,18 @@
             <hint/>
             <inactive>false</inactive>
             <label>その他</label>
-            <language>en</language>
+            <language>ja</language>
             <name>x_585042_congratul_congratscondolence</name>
-            <sequence/>
+            <sequence>90</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-09-08 06:59:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>32f4d1142f2630102a5958a72799b6e1</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-08 06:59:08</sys_updated_on>
+            <sys_updated_on>2021-09-14 08:44:29</sys_updated_on>
             <value>9</value>
         </sys_choice>
     </sys_choice>

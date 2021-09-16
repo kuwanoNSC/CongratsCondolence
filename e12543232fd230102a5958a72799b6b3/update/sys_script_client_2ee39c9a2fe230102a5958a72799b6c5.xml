@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>新規申請表示時に申請者、実申請者にログインユーザをセット</description>
+        <field>ail_posted</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>CON Set Applicant</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    // ロード時
+//     // 割当て承認者を読み取り専用にする
+//     g_form.setReadOnly('assigned_to', true);
+// 	// ステータスを読み取り専用にする
+//     g_form.setReadOnly('state', true);
+    if (g_form.isNewRecord()) {
+        // 新規申請時
+        // 申請者にログインユーザをセット
+        g_form.setValue('applicant', g_user.userID);
+        // 実申請者にログインユーザをセット
+        g_form.setValue('real_applicant', g_user.userID);
+        // 申請区分を読み取り専用解除
+        g_form.setReadOnly('classification', false);
+    } else {
+        // 新規以外の時
+        // 申請区分を読み取り専用にする
+        g_form.setReadOnly('classification', true);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-14 07:30:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ee39c9a2fe230102a5958a72799b6c5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>CON Set Applicant</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Congratulatory or Condolence money" source="x_585042_congratul">e12543232fd230102a5958a72799b6b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Congratulatory or Condolence money">e12543232fd230102a5958a72799b6b3</sys_scope>
+        <sys_update_name>sys_script_client_2ee39c9a2fe230102a5958a72799b6c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-15 08:52:43</sys_updated_on>
+        <table>x_585042_congratul_congratscondolence</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

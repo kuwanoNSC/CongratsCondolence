@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="2d0d95ec2f2230102a5958a72799b645" sys_domain="global" table="x_585042_congratul_congratscondolence" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-09 02:12:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>250d95ec2f2230102a5958a72799b649</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_585042_congratul_congratscondolence" name="x_585042_congratul_congratscondolence" sys_domain="global" view="Default view">2d0d95ec2f2230102a5958a72799b645</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_585042_congratul_congratscondolence" sys_domain="global" view="Default view">ee136bbb2f5230102a5958a72799b674</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-09 02:12:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-09 02:12:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>210d95ec2f2230102a5958a72799b64a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_585042_congratul_congratscondolence" name="x_585042_congratul_congratscondolence" sys_domain="global" view="Default view">2d0d95ec2f2230102a5958a72799b645</sys_ui_form>
+            <sys_ui_section caption="Wedding gift" display_value="Wedding gift" name="x_585042_congratul_congratscondolence" sys_domain="global" view="Default view">290d95ec2f2230102a5958a72799b61c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-09 02:12:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-09 02:12:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed0d95ec2f2230102a5958a72799b64d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_585042_congratul_congratscondolence" name="x_585042_congratul_congratscondolence" sys_domain="global" view="Default view">2d0d95ec2f2230102a5958a72799b645</sys_ui_form>
+            <sys_ui_section caption="Baby-birth gift" display_value="Baby-birth gift" name="x_585042_congratul_congratscondolence" sys_domain="global" view="Default view">650d95ec2f2230102a5958a72799b61f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-09 02:12:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-09 09:47:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3350fe02fa630102a5958a72799b604</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_585042_congratul_congratscondolence" name="x_585042_congratul_congratscondolence" sys_domain="global" view="Default view">2d0d95ec2f2230102a5958a72799b645</sys_ui_form>
+            <sys_ui_section caption="Death condolence money" display_value="Death condolence money" name="x_585042_congratul_congratscondolence" sys_domain="global" view="Default view">b3350fe02fa630102a5958a72799b600</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-09 09:47:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_585042_congratul_congratscondolence</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-09 02:12:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d0d95ec2f2230102a5958a72799b645</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_585042_congratul_congratscondolence</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Congratulatory or Condolence money" source="x_585042_congratul">e12543232fd230102a5958a72799b6b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Congratulatory or Condolence money">e12543232fd230102a5958a72799b6b3</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2d0d95ec2f2230102a5958a72799b645</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-09 02:12:17</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
